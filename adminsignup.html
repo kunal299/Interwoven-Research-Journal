@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <style>
+    body {
+      
+      padding: 0;
+      font-size: 1.2rem;
+      font-family: Nunito, Arial, Helvetica, sans-serif;
+    }
+
+    label,
+    h1,
+    p,
+    a {
+      color: white;
+    }
+
+
+
+    
+    .signup {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(0, 0, 0);
+      margin: auto 20rem;
+      padding: 3rem;
+      border-radius: 2rem;
+      text-align: center;
+    }
+
+    #submit {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 0.25rem;
+      padding: 0.3rem 1rem;
+      transition: 2s;
+    }
+
+    
+    
+  </style>
+</head>
+
+<body>
+  <div class="signup">
+    
+    <form name="form1" action="">
+      <br><br>
+      <h1>Sign Up</h1>  
+      <br><br>
+      <label>First Name :</label>
+      <input type="text" id="name" />
+      <br /><br />
+      <label>Last Name :</label>
+      <input type="text" />
+      <br /><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Email :</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Degree :</label>
+      <input type="text" id="degree" />
+      <br /><br />
+      <label>Contact Number :</label>
+      <input type="number" id="contact" />
+      <br /><br />
+
+      &nbsp;<label>Password :</label>
+      <input type="password" />
+      <br /><br/>
+      <label for="User">User :</label>
+      <select name="users" id="user">
+        <option value="select">Select an option</option>
+        <option value="student">Student</option>
+        <option value="reviewer">Reviewer</option>
+      </select>
+      <br><br>
+      <button type="" id="submit">Sign Up</button>
+      <br><br><br>
+
+      <a>Already have an account?</a>
+
+      <a href="login.html">Login</a>
+      
+      
+    </form>
+  </div>
+</body>
+
+</html>
