@@ -5,7 +5,7 @@
 }
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/pizza.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/3.png);
 	height: 99vh;
 	background-size: cover;
 	background-position: center;
@@ -41,7 +41,7 @@ ul li.active a{
 
 .logo img{
 	float: left;
-	width: 200px;
+	width: 100px;
 	height: auto;
 }
 
@@ -52,21 +52,16 @@ ul li.active a{
 .title{
 	position: absolute;
 	top: 40%;
-	left: 13%;
+	left: 23%;
 	transform: translate(-50%,-50%);
 }
 
 .title h2{
-	color: #fff;
-	font-size: 50px;
-	font-family: gabriola;
+  color: #fff;
+  font-size: 50px;
+  font-family: gabriola;
 }
 
-.title h4{
-	color: #fff;
-	font-size: 30px;
-	font-family: gabriola;
-}
 
 .button{
 	position: absolute;
@@ -85,4 +80,10 @@ ul li.active a{
 .btn:hover{
 	background-color: #fff;
 	color: #000;
+}
+
+.bookImg img{
+	position: absolute;
+	top: 10%;
+	left: 47%;
 }
