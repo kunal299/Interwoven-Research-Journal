@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="../css/signupstyle.css">
+	<script type="text/javascript" src="formValidation.js">  </script> // javascript
+</head>
+<body>
+
+	<style type="text/css">
+	#text{
+		height: 25px;
+		border-radius: 5px;
+		padding: 4px;
+		border: solid thin #aaa;
+		width: 100%;
+	}
+	#button{
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 10px;
+		width: 100px;
+		color: #fff;
+		background-color: transparent;
+		border: 1px solid #fff;
+
+	}
+	#button:hover{
+	background-color: #fff;
+	color: #000;
+}
+	#box{
+		margin-top: 20px;
+		background-color: transparent;
+		margin: auto;
+		width: 300px;
+		padding: 20px;
+	}
+</style>
+<header>
+
+<div id="box">
+	
+	<form name="myform"  method="post" action="#" onsubmit="return validateemail();">
+		
+		<div style="font-size: 30px; margin: 10px; text-align: center; color: white;">Sign Up</div>
+		<h4 style="color: white;">First Name<h4>
+			<input id="text" type="text" name="first_name"><br><br>
+		<h4 style="color: white;">Last Name<h4>
+			<input id="text" type="text" name="last_name"><br><br>
+		
+		<h4 style="color: white;">Email Id<h4>
+			<input id="text" type="text" name="email_id"><br><br>
+		
+		<h4 style="color: white;">Mobile Number<h4>
+			<input id="text" type="Number" name="mobile_number"><br><br>
+		<h4 style="color: white;">Password<h4>
+			<input id="text" type="password" name="password"><br><br>
+
+		<label for="role" style="color: white;">Choose a Role:</label>
+			<select name="role" id="role">
+  				<option value="admin">Admin</option>
+  				<option value="reviwer">Reviewer</option>
+  				<option value="student">Student</option>
+			</select>
+			
+	<div class="button">		
+	<input id="button" type="submit" value="Sign Up"><br><br><br><br>		
+      <a href="login.html" class="btn">Click to Login</a>
+	</div>
+	</form>
+</div>
+
+</header>
+</body>
+</html>
+
